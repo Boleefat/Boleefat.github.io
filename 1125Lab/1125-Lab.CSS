@@ -1,0 +1,25 @@
+.WeGood{
+		position: absolute;
+		top : 60%;
+	}
+
+.NTU-sucks{
+		position: absolute;
+		top: 7%;
+		left: 0%;
+		z-index: 1;
+	}
+
+.NCCU-trademark{
+		position: absolute;
+		top: 13%;
+		left: 18%;
+		z-index: 2;
+	}
+
+ .navbar{
+ 		position: absolute;
+ 		left: 55%;
+ 		top: 15%;
+ 		z-index: 1;
+ }
