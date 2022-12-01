@@ -1,0 +1,36 @@
+body{
+		font-family: arial, sans-serif ;
+		font-weight: bold;
+
+	}
+#row1{
+	width: 100%;
+	float: right;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#input2{
+	width: 50%;
+	float: left;
+	margin-bottom: 1%;
+
+}
+#input3{
+	width: 50%;
+	float: right;
+	margin-bottom: 1%;
+}
+#row3{
+	width: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+	}
+#pic{
+
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#text{margin: 1%}
