@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+  <style>
+    .div {
+      background-color: lightblue;
+    }
+  </style>
+
+
+
+  </form>
+
+  <div class="div">
+
+    <b>JS Calculator</b>
+
+  	<form action="/action_page.php">
+  	<label>Number1</label>
+  	<p>
+  		<input type="number" id="input1">
+  	</p>
+  	
+  	<p>
+  		<form action="/action_page.php">
+  		<label>Number2</label>
+  		<p>
+  			<input type="number" id="input2">
+    	</p>
+    </p>
+    
+    <p>
+    	<b>Operate Way?</b>	
+    </p>
+
+    <p>
+    <form action="/action_page.php">
+    <select id="calculate">
+    <option value="a">+</option>
+    <option value="b">-</option>
+    <option value="c">*</option>
+    <option value="d">/</option>
+    </select> 
+	</form>
+   
+    <p>Result=
+      <p id="result"></p>
+    </p> 
+    <button id="botton">Calculate</button>
+
+
+
+    <script>
+      var input1 = document.getElementById("input1");
+      var input2 = document.getElementById("input2");
+      var calculate = document.getElementById("calculate"); 
+      var result = document.getElementById("result");
+      var botton = document.getElementById("botton");
+      botton.addEventListener("click", function () {
+        switch (calculate.value) {
+          case "a":
+            result.innerText = parseInt(input1.value) + parseInt(input2.value);
+            break;
+          case "b":
+            result.innerText = parseInt(input1.value) - parseInt(input2.value);
+            break;
+          case "c":
+            result.innerText = parseInt(input1.value) * parseInt(input2.value);
+            break;
+          case "d":
+            result.innerText = parseInt(input1.value) / parseInt(input2.value);
+            break;
+          default:
+            break;
+        }
+      })
+      
+
+    </script>
+  </div>
+</body>
+
+</html>
+
+
