@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Bolee\\Desktop\\政大\\課程資料\\大一\\程式設計\\SQL_test\\mysql-connector-j-8.0.32.jar"
+    ]
+}
